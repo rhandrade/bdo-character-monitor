@@ -1,0 +1,19 @@
+{
+  "name": "bdo-character-monitor",
+  "version": "0.0.1",
+  "description": "Monitor for Black Desert Online character status and updates.",
+  "type": "module",
+  "license": "private",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "axios": "^1.14.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.4.0"
+  }
+}
