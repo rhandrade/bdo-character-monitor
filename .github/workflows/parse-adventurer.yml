@@ -5,6 +5,13 @@ on:
     - cron: '17 * * * *'  # roda todo xx:17
   workflow_dispatch:      # permite rodar manualmente também
 
+permissions:
+  contents: write
+
+env:
+  ADVENTURER_URL: ${{ secrets.ADVENTURER_URL }}
+  DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
