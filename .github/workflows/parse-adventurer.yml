@@ -2,8 +2,8 @@ name: Run monitor script every hour
 
 on:
   schedule:
-    - cron: '42 * * * *'  # roda todo xx:17
-  workflow_dispatch:      # permite rodar manualmente também
+    - cron: '42 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
