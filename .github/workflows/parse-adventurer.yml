@@ -38,4 +38,3 @@ jobs:
             git push
             echo "Changes committed and pushed to repository."
           fi
-```
