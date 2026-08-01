@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 env:
-  ADVENTURER_URL: ${{ secrets.ADVENTURER_URL }}
+  ADVENTURER_PROFILE_IDS_JSON: ${{ secrets.ADVENTURER_PROFILE_IDS_JSON }}
   DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
 jobs:
