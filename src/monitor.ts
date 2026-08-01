@@ -104,9 +104,7 @@ const formatRemovedMessage = (family: string, removed: string[], beforeCount: nu
 const main = async () => {
   try {
     console.log('Starting adventurer info monitoring...');
-
-    console.log(IDS_JSON);
-    console.log(DISCORD_WEBHOOK);
+   
     if (!IDS_JSON || !DISCORD_WEBHOOK) {
       throw new Error('Environment variables not set.');
     }
